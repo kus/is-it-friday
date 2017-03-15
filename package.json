@@ -1,0 +1,29 @@
+{
+  "name": "is-it-friday",
+  "version": "0.1.0",
+  "description": "JS library that makes an educated guess if it's Friday.",
+  "author": "Blake Kus <blakekus+github@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/test.js",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/test.js"
+  },
+  "repository": "kus/is-it-friday",
+  "keywords": [
+    "friday",
+    "lol",
+    "fun",
+    "useless"
+  ],
+  "license": "MIT",
+  "homepage": "http://kus.io/",
+  "bugs": {
+    "url": "https://github.com/kus/is-it-friday/issues"
+  },
+  "devDependencies": {
+    "coveralls": "^2.12.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  }
+}
