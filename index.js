@@ -1,1 +1,1 @@
-module.exports = "Probably not...";
+module.exports = "If not then no, otherwise yes";
